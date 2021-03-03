@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-database.js"></script>
+
+
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyBGzT8dUHLySiz5BWx6HXwYoFar582M_gw",
+            authDomain: "my-assignments-a4bbd.firebaseapp.com",
+            databaseURL: "https://my-assignments-a4bbd-default-rtdb.firebaseio.com",
+            projectId: "my-assignments-a4bbd",
+            storageBucket: "my-assignments-a4bbd.appspot.com",
+            messagingSenderId: "193611626817",
+            appId: "1:193611626817:web:7cd6e9eb3158a5dab509c0",
+            measurementId: "G-F0ZR7W1ZVE"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h3 id='h3'>To Do List</h3>
+        <input type="text" id="data" placeholder="Enter Your Wish.....">
+        <button onclick="todo()">Post</button>
+        <button onclick="delall()">Delete All</button>
+
+        <ol id="ol">
+
+        </ol>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

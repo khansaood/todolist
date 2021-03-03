@@ -1,0 +1,79 @@
+    #data {
+        font-size: 50px;
+        border-radius: 5px;
+        border: none;
+        background-color: transparent;
+        border: black 1px solid;
+        color: black;
+        /* box-shadow: gray 3px 5px 10px; */
+    }
+    
+    #h3 {
+        border-left: black solid 5px;
+        width: 300px;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    
+    button {
+        font-size: 45px;
+        background-color: gray;
+        color: white;
+        /* border: 1px solid white; */
+        /* box-shadow: gray 5px 7px 10px; */
+        border-radius: 5px;
+    }
+    
+    .container {
+        text-align: center;
+        font-size: 40px;
+        height: 580px;
+        font-family: sans-serif;
+    }
+    
+    ul {
+        border-left: 15px solid black;
+        border-right: 15px solid black;
+    }
+    
+    .li {
+        padding-left: 7px;
+        text-align: start;
+        width: 80%;
+        /* text-decoration: underline; */
+        background-color: gray;
+        border-radius: 5px;
+        line-height: 70px;
+        border: 2px solid black;
+        margin: 2px;
+        position: relative;
+        left: 110px;
+        font-size: 23px;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .delbutton {
+        background-color: transparent;
+        display: inline-block;
+        border: black 3px solid;
+        /* position: absolute; */
+        /* right: 10%; */
+        font-size: 35px;
+    }
+    
+    .edit {
+        font-size: 35px;
+        background-color: transparent;
+        display: inline-block;
+        border: black 3px solid;
+        margin-left: 15px;
+        margin-right: 12px;
+        /* position: absolute; */
+        /* right: 0.1%; */
+    }
+    
+    .divbox {
+        display: flex;
+        align-items: center;
+    }
